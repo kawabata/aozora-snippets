@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bousen
+# binding: C-c y s
+# --
+$1［＃「$1」${に$$(yas/choose-value '("に" "の左に"))}${傍線$$(yas/choose-value '("傍線" "破線" "波線" "鎖線" "下線"))}］

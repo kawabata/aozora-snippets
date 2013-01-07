@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# binding: C-c y r
+# expand-env: ((yas-after-exit-snippet-hook 'ruby-clean-up))
+# --
+$1《${1:$(japanese-to-kana-string text)}》
